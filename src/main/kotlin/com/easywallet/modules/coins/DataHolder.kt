@@ -1,7 +1,7 @@
 package com.easywallet.modules.coins
 
 private val BASE_URL = "http://localhost:8080"
-internal val coins = listOf<Coin>(
+internal val coins = listOf(
     Coin(
         coinSlug = "atom-main",
         coinSymbol = "ATOM",
