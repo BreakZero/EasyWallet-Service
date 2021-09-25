@@ -6,8 +6,6 @@ import io.ktor.http.content.*
 import io.ktor.routing.*
 
 fun Application.configureRouting() {
-
-
     routing {
         easyWallet()
         static {

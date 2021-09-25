@@ -7,6 +7,8 @@ import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import org.jetbrains.exposed.sql.Table
 import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.transactions.transaction
+import java.io.File
+import java.nio.file.Files
 
 fun coins(isActive: Int): BaseResponse<List<Coin>> {
     return transaction {
@@ -33,6 +35,11 @@ fun coins(isActive: Int): BaseResponse<List<Coin>> {
             error = "get coin error"
         )
     }
+}
+
+fun coinsFromJson() {
+    val file = File("/src/main/resources/static/configs/coins.json").readText()
+    println(file)
 }
 
 object Coins : Table("coin") {

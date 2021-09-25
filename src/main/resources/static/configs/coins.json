@@ -1,0 +1,143 @@
+[
+  {
+    "coinSlug": "atom-main",
+    "coinSymbol": "ATOM",
+    "coinName": "Cosmos",
+    "decimal": 6,
+    "displayDecimal": 6,
+    "accentColor": "#263238",
+    "tokenType": "MAIN_COIN",
+    "icon":"",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "bitcoin-cash-main",
+    "coinSymbol": "BCH",
+    "coinName": "Bitcoin Cash",
+    "decimal": 8,
+    "displayDecimal": 8,
+    "accentColor": "#F9A825",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "bnb-smart",
+    "coinSymbol": "BNB",
+    "coinName": "Binance Smart",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#FFAB00",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "bnb-smart-legacy",
+    "coinSymbol": "BNB",
+    "coinName": "Binance Smart Legacy",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#FFAB00",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "comp-erc20",
+    "coinSymbol": "COMP",
+    "coinName": "Compound",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#00E676",
+    "tokenType": "ERC20TOKEN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "cro-erc20",
+    "coinSymbol": "CRO",
+    "coinName": "Crypto.com Coin",
+    "decimal": 8,
+    "displayDecimal": 8,
+    "accentColor": "#1A237E",
+    "tokenType": "ERC20TOKEN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "dai-erc20",
+    "coinSymbol": "DAI",
+    "coinName": "Dai Stablecoin",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#FFEB3B",
+    "tokenType": "ERC20TOKEN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "doge-main",
+    "coinSymbol": "DOGE",
+    "coinName": "Dogecoin",
+    "decimal": 8,
+    "displayDecimal": 8,
+    "accentColor": "#FFD54F",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "dot-main",
+    "coinSymbol": "DOT",
+    "coinName": "Polkadot",
+    "decimal": 10,
+    "displayDecimal": 8,
+    "accentColor": "#000000",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "eth-main",
+    "coinSymbol": "ETH",
+    "coinName": "Ethereum",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#757575",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "matic-main",
+    "coinSymbol": "MATIC",
+    "coinName": "Polygon",
+    "decimal": 9,
+    "displayDecimal": 8,
+    "accentColor": "#00FFD4",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "near-main",
+    "coinSymbol": "NEAR",
+    "coinName": "NEAR",
+    "decimal": 24,
+    "displayDecimal": 8,
+    "accentColor": "#00FFD4",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "sol-main",
+    "coinSymbol": "SOL",
+    "coinName": "Solana",
+    "decimal": 9,
+    "displayDecimal": 8,
+    "accentColor": "#00FFD4",
+    "tokenType": "MAIN_COIN",
+    "isActive": 0
+  },
+  {
+    "coinSlug": "uni-erc20",
+    "coinSymbol": "UNI",
+    "coinName": "Uniswap",
+    "decimal": 18,
+    "displayDecimal": 8,
+    "accentColor": "#EC407A",
+    "tokenType": "ERC20TOKEN",
+    "isActive": 0
+  }
+]
