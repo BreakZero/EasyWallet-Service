@@ -7,7 +7,7 @@
     "displayDecimal": 6,
     "accentColor": "#263238",
     "tokenType": "MAIN_COIN",
-    "icon":"",
+    "icon":"icons/bitcoin.png",
     "isActive": 0
   },
   {
@@ -18,6 +18,7 @@
     "displayDecimal": 8,
     "accentColor": "#F9A825",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/bitcoin-cash-2.png",
     "isActive": 0
   },
   {
@@ -28,6 +29,7 @@
     "displayDecimal": 8,
     "accentColor": "#FFAB00",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/binance-coin.png",
     "isActive": 0
   },
   {
@@ -38,6 +40,7 @@
     "displayDecimal": 8,
     "accentColor": "#FFAB00",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/binance-coin.png",
     "isActive": 0
   },
   {
@@ -48,6 +51,7 @@
     "displayDecimal": 8,
     "accentColor": "#00E676",
     "tokenType": "ERC20TOKEN",
+    "icon":"icons/compound.png",
     "isActive": 0
   },
   {
@@ -58,6 +62,7 @@
     "displayDecimal": 8,
     "accentColor": "#1A237E",
     "tokenType": "ERC20TOKEN",
+    "icon":"icons/cro.png",
     "isActive": 0
   },
   {
@@ -68,6 +73,7 @@
     "displayDecimal": 8,
     "accentColor": "#FFEB3B",
     "tokenType": "ERC20TOKEN",
+    "icon":"icons/dai.png",
     "isActive": 0
   },
   {
@@ -78,6 +84,7 @@
     "displayDecimal": 8,
     "accentColor": "#FFD54F",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/dogecoin.png",
     "isActive": 0
   },
   {
@@ -88,6 +95,7 @@
     "displayDecimal": 8,
     "accentColor": "#000000",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/dot.png",
     "isActive": 0
   },
   {
@@ -98,6 +106,7 @@
     "displayDecimal": 8,
     "accentColor": "#757575",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/ethereum.png",
     "isActive": 0
   },
   {
@@ -108,6 +117,7 @@
     "displayDecimal": 8,
     "accentColor": "#00FFD4",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/matic.png",
     "isActive": 0
   },
   {
@@ -118,6 +128,7 @@
     "displayDecimal": 8,
     "accentColor": "#00FFD4",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/near.png",
     "isActive": 0
   },
   {
@@ -128,6 +139,7 @@
     "displayDecimal": 8,
     "accentColor": "#00FFD4",
     "tokenType": "MAIN_COIN",
+    "icon":"icons/binance-coin.png",
     "isActive": 0
   },
   {
@@ -138,6 +150,7 @@
     "displayDecimal": 8,
     "accentColor": "#EC407A",
     "tokenType": "ERC20TOKEN",
+    "icon":"icons/uni.png",
     "isActive": 0
   }
 ]

@@ -39,7 +39,6 @@ dependencies {
 
 tasks{
     shadowJar {
-        archiveFileName.set("easy-wallet.service-$archiveVersion.jar")
         manifest {
             attributes(Pair("Main-Class", " com.easywallet.Application"))
         }
