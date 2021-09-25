@@ -2,19 +2,18 @@ package com.easywallet.modules.coins
 
 import com.easywallet.models.BaseResponse
 import com.easywallet.models.LogicCode
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.Serializable
-import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
-import org.jetbrains.exposed.sql.Table
-import org.jetbrains.exposed.sql.select
-import org.jetbrains.exposed.sql.transactions.transaction
-import java.io.File
-import java.nio.file.Files
 
 fun coins(isActive: Int): BaseResponse<List<Coin>> {
-    return BaseResponse(
-        code = LogicCode.OK.code,
-        data = coins.filter { it.isActive == isActive }
-    )
+    return runBlocking {
+        delay(100)
+        BaseResponse(
+            code = LogicCode.OK.code,
+            data = coins.filter { it.isActive == isActive }
+        )
+    }
 }
 
 @Serializable
