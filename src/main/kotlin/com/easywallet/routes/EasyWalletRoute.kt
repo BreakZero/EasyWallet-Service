@@ -1,5 +1,6 @@
 package com.easywallet.routes
 
+import com.easywallet.modules.balance.balance
 import com.easywallet.modules.coins.coins
 import com.easywallet.modules.forwards.testForward
 import io.ktor.application.*
@@ -21,6 +22,16 @@ fun Route.easyWallet() {
             call.respond(
                 status = HttpStatusCode.OK,
                 message = testForward()
+            )
+        }
+    }
+    get("/{chain}/{address}") {
+        val chain = call.parameters["chain"]
+        val address = call.parameters["address"]
+        runBlocking {
+            call.respond(
+                status = HttpStatusCode.OK,
+                message = balance(chain.orEmpty(), address.orEmpty())
             )
         }
     }

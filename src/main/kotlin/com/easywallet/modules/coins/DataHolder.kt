@@ -1,6 +1,7 @@
 package com.easywallet.modules.coins
 
-private val BASE_URL = "http://localhost:8080"
+//private val BASE_URL = "http://localhost:8080/"
+private val BASE_URL = ""
 internal val coins = listOf(
     Coin(
         coinSlug = "atom-main",
@@ -10,7 +11,7 @@ internal val coins = listOf(
         displayDecimal = 6,
         accentColor = "#263238",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/uni.png",
+        icon = "${BASE_URL}icons/uni.png",
         isActive = 0
     ),
     Coin(
@@ -21,7 +22,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#F9A825",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/bitcoin-cash-2.png",
+        icon = "${BASE_URL}icons/bitcoin-cash-2.png",
         isActive = 0
     ),
     Coin(
@@ -32,7 +33,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#FFAB00",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/binance-coin.png",
+        icon = "${BASE_URL}icons/binance-coin.png",
         isActive = 0
     ),
     Coin(
@@ -43,7 +44,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#FFAB00",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/binance-coin.png",
+        icon = "${BASE_URL}icons/binance-coin.png",
         isActive = 0
     ),
     Coin(
@@ -54,7 +55,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#00E676",
         tokenType = "ERC20TOKEN",
-        icon = "${BASE_URL}/icons/compound.png",
+        icon = "${BASE_URL}icons/compound.png",
         isActive = 0
     ),
     Coin(
@@ -65,7 +66,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#1A237E",
         tokenType = "ERC20TOKEN",
-        icon = "${BASE_URL}/icons/cro.png",
+        icon = "${BASE_URL}icons/cro.png",
         isActive = 0
     ),
     Coin(
@@ -76,7 +77,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#FFEB3B",
         tokenType = "ERC20TOKEN",
-        icon = "${BASE_URL}/icons/dai.png",
+        icon = "${BASE_URL}icons/dai.png",
         isActive = 0
     ),
     Coin(
@@ -87,7 +88,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#FFD54F",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/dogecoin.png",
+        icon = "${BASE_URL}icons/dogecoin.png",
         isActive = 0
     ),
     Coin(
@@ -98,7 +99,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#757575",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/ethereum.png",
+        icon = "${BASE_URL}icons/ethereum.png",
         isActive = 0
     ),
     Coin(
@@ -109,7 +110,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#00FFD4",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/matic.png",
+        icon = "${BASE_URL}icons/matic.png",
         isActive = 0
     ),
     Coin(
@@ -120,7 +121,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#00FFD4",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/near.png",
+        icon = "${BASE_URL}icons/near.png",
         isActive = 0
     ),
     Coin(
@@ -131,7 +132,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#00FFD4",
         tokenType = "MAIN_COIN",
-        icon = "${BASE_URL}/icons/compound.png",
+        icon = "${BASE_URL}icons/compound.png",
         isActive = 0
     ),
     Coin(
@@ -142,7 +143,7 @@ internal val coins = listOf(
         displayDecimal = 8,
         accentColor = "#EC407A",
         tokenType = "ERC20TOKEN",
-        icon = "${BASE_URL}/icons/compound.png",
+        icon = "${BASE_URL}icons/compound.png",
         isActive = 0
     )
 )
