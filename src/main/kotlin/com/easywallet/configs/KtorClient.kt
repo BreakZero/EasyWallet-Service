@@ -13,6 +13,8 @@ object KtorClient {
     private val client = HttpClient(CIO) {
         engine {
             requestTimeout = 100_000
+            threadsCount = 8
+            pipelining = true
         }
 
         install(JsonFeature) {
@@ -20,7 +22,7 @@ object KtorClient {
                 isLenient = false
                 ignoreUnknownKeys = true
                 allowSpecialFloatingPointValues = true
-                useArrayPolymorphism = false
+                useArrayPolymorphism = true
             }
             serializer = KotlinxSerializer(json)
         }

@@ -10,7 +10,7 @@ import io.ktor.routing.*
 import kotlinx.coroutines.runBlocking
 
 fun Route.easyWallet() {
-    get("/coins") {
+    get("/currencies") {
         val isActive = call.request.queryParameters["is_active"] == "true"
         call.respond(
             status = HttpStatusCode.OK,
@@ -25,7 +25,7 @@ fun Route.easyWallet() {
             )
         }
     }
-    get("/{chain}/{address}") {
+    get("/balance/{chain}/{address}") {
         val chain = call.parameters["chain"]
         val address = call.parameters["address"]
         runBlocking {
