@@ -2,14 +2,23 @@ package com.easywallet.modules.forwards
 
 import com.easywallet.models.BalanceInfo
 import com.easywallet.models.BaseResponse
-import java.math.BigInteger
+import com.easywallet.models.entities.TransactionBean
 
-object RPCService: IDataService {
+object TerraService: IDataService {
     override suspend fun balance(chain: String, address: String): BaseResponse<BalanceInfo> {
         TODO("Not yet implemented")
     }
 
-    override suspend fun transactions(chain: String, address: String): BaseResponse<List<String>> {
+    override suspend fun transactions(
+        chain: String,
+        address: String,
+        page: Int,
+        offset: Int
+    ): BaseResponse<List<TransactionBean>> {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun postTx(rawData: String): BaseResponse<String> {
         TODO("Not yet implemented")
     }
 

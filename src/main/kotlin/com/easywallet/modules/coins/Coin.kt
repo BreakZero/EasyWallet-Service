@@ -25,6 +25,6 @@ data class Coin(
     val displayDecimal: Int,
     val accentColor: String,
     val tokenType: String,
-    val icon: String,
+    val iconSuffix: String,
     val isActive: Int
 )

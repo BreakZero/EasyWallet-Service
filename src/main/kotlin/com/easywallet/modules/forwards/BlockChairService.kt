@@ -7,6 +7,7 @@ import com.easywallet.models.BaseResponse
 import com.easywallet.models.LogicCode
 import com.easywallet.models.blockchair.BalanceRemote
 import com.easywallet.models.blockchair.Info
+import com.easywallet.models.entities.TransactionBean
 import io.ktor.client.request.*
 
 object BlockChairService : IDataService {
@@ -34,7 +35,16 @@ object BlockChairService : IDataService {
         )
     }
 
-    override suspend fun transactions(chain: String, address: String): BaseResponse<List<String>> {
+    override suspend fun transactions(
+        chain: String,
+        address: String,
+        page: Int,
+        offset: Int
+    ): BaseResponse<List<TransactionBean>> {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun postTx(rawData: String): BaseResponse<String> {
         TODO("Not yet implemented")
     }
 
