@@ -24,14 +24,14 @@ dependencies {
     implementation("io.ktor:ktor-serialization:$ktor_version")
     implementation("io.ktor:ktor-server-host-common:$ktor_version")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
+    implementation("io.ktor:ktor-client-serialization:$ktor_version")
+    implementation("io.ktor:ktor-client-gson:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
+    implementation("io.ktor:ktor-client-cio:$ktor_version")
 
     implementation("org.jetbrains.exposed:exposed:0.17.14")
-    implementation("mysql:mysql-connector-java:8.0.15")
+    implementation("mysql:mysql-connector-java:8.0.25")
     implementation(group = "org.slf4j", name = "slf4j-simple", version = "1.7.25")
-
-    implementation("io.ktor:ktor-client-core:$ktor_version")
-    implementation("io.ktor:ktor-client-cio:$ktor_version")
 
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test:$kotlin_version")
@@ -39,7 +39,6 @@ dependencies {
 
 tasks{
     shadowJar {
-        archiveFileName.set("easy-wallet.service-$archiveVersion.jar")
         manifest {
             attributes(Pair("Main-Class", " com.easywallet.Application"))
         }
