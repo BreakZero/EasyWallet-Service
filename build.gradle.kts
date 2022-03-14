@@ -28,10 +28,16 @@ dependencies {
     implementation("io.ktor:ktor-client-gson:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-client-cio:$ktor_version")
+    implementation("aws.sdk.kotlin:dynamodb:0.13.0-beta")
 
     implementation("org.jetbrains.exposed:exposed:0.17.14")
     implementation("mysql:mysql-connector-java:8.0.25")
     implementation(group = "org.slf4j", name = "slf4j-simple", version = "1.7.25")
+
+    implementation("io.arrow-kt:arrow-core:1.0.1")
+
+    implementation("io.arrow-kt:arrow-fx-coroutines:1.0.1")
+    implementation("io.arrow-kt:arrow-fx-stm:1.0.1")
 
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test:$kotlin_version")
