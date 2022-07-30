@@ -2,12 +2,12 @@ package com.easywallet
 
 import arrow.core.*
 import arrow.fx.coroutines.*
-import aws.sdk.kotlin.runtime.auth.credentials.Credentials
-import aws.sdk.kotlin.runtime.auth.credentials.CredentialsProvider
 import aws.sdk.kotlin.services.dynamodb.DynamoDbClient
 import aws.sdk.kotlin.services.dynamodb.model.AttributeValue
 import aws.sdk.kotlin.services.dynamodb.model.CreateGlobalTableResponse
 import aws.sdk.kotlin.services.dynamodb.model.TransactGetItemsRequest
+import aws.smithy.kotlin.runtime.auth.awscredentials.Credentials
+import aws.smithy.kotlin.runtime.auth.awscredentials.CredentialsProvider
 import com.easywallet.configs.ACCESS_KEY_ID
 import com.easywallet.configs.SECRET_ACCESS_KEY
 import kotlinx.coroutines.delay

@@ -1,6 +1,6 @@
 package com.easywallet.plugins
 
-import io.ktor.application.*
+import io.ktor.server.application.*
 import org.jetbrains.exposed.sql.Database
 
 fun Application.initDB() {

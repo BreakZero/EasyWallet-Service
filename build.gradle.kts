@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.easywallet"
-version = "0.0.1"
+version = "0.0.2"
 application {
     mainClass.set("io.ktor.server.netty.EngineMain")
 }
@@ -24,20 +24,23 @@ dependencies {
     implementation("io.ktor:ktor-serialization:$ktor_version")
     implementation("io.ktor:ktor-server-host-common:$ktor_version")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
-    implementation("io.ktor:ktor-client-serialization:$ktor_version")
-    implementation("io.ktor:ktor-client-gson:$ktor_version")
+    implementation("io.ktor:ktor-server-call-logging:$ktor_version")
+    implementation("io.ktor:ktor-server-content-negotiation:$ktor_version")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
+
+    implementation("io.ktor:ktor-client-content-negotiation:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-client-cio:$ktor_version")
-    implementation("aws.sdk.kotlin:dynamodb:0.13.0-beta")
+
+    implementation("aws.sdk.kotlin:dynamodb:0.16.0")
 
     implementation("org.jetbrains.exposed:exposed:0.17.14")
-    implementation("mysql:mysql-connector-java:8.0.25")
+    implementation("mysql:mysql-connector-java:8.0.29")
     implementation(group = "org.slf4j", name = "slf4j-simple", version = "1.7.25")
 
-    implementation("io.arrow-kt:arrow-core:1.0.1")
-
-    implementation("io.arrow-kt:arrow-fx-coroutines:1.0.1")
-    implementation("io.arrow-kt:arrow-fx-stm:1.0.1")
+    implementation("io.arrow-kt:arrow-core:1.1.2")
+    implementation("io.arrow-kt:arrow-fx-coroutines:1.1.2")
+    implementation("io.arrow-kt:arrow-fx-stm:1.1.2")
 
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test:$kotlin_version")
